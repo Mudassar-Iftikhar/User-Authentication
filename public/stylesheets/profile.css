@@ -1,0 +1,36 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.cover {
+    background: no-repeat, linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("https://res.cloudinary.com/http-www-webdesigningdubai-ae/image/upload/v1703658959/12980762_5096160_gxc7zn.jpg") no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.cover-content {
+    min-height: 100vh;
+}
+
+.cover-content img {
+
+    max-width: 200px;
+    border: 2px solid white;
+}
+
+.about {
+    background-color: #ececec;
+}
+
+@media screen and (max-width: 760px) {
+    .cover-content h1 {
+        font-size: 36px;
+        font-weight: bold;
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    .cover-content h6 {
+        font-size: 15px;
+    }
+}
